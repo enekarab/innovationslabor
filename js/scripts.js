@@ -222,7 +222,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const acceptBtn = document.getElementById('acceptCookies');
     const declineBtn = document.getElementById('declineCookies');
 
-    // Prüfe, ob bereits eine Cookie-Entscheidung existiert
     if (!localStorage.getItem('cookieConsent')) {
         cookieConsent.classList.add('active');
         document.body.classList.add('cookie-modal-open');
