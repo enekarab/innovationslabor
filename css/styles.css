@@ -6911,7 +6911,6 @@ textarea.form-control-lg {
   font-size: 1.3rem;
 }
 
-/* Animation für das Erscheinen des Modals */
 .cookie-modal.active {
   animation: modalFadeIn 0.5s ease-out;
 }
